@@ -12,6 +12,7 @@ To use, build the project, then navigate to app\build\outputs\aar and rename the
 You will also need the android-support-v4.jar file in the Assets\Plugins\Android folder. Next, copy your Unity Android project's AndroidManifest.xml file from the Temp\StagingArea folder that Unity generates when you build an Android project. Paste the file in the same folder as your .jar file.
 You will need to add several lines to the .xml file:
 
+'''
 <manifest ...
   ...
   <application
@@ -35,6 +36,7 @@ You will need to add several lines to the .xml file:
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
   ...
 </manifest>
+'''
 
 You can then access the Java classes using Unity's Java Helper Classes found here: http://docs.unity3d.com/Manual/PluginsForAndroid.html
 See the section labeled: Using Your Java Plugin with helper classes
