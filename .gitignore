@@ -1,11 +1,11 @@
 *.iml
 WiimotePlugin/.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+WiimotePlugin/local.properties
+WiimotePlugin/.idea/workspace.xml
+WiimotePlugin/.idea/libraries
 WiimotePlugin/.DS_Store
-/build
-/captures
+WiimotePlugin/build
+WiimotePlugin/captures
 UnityApp/*
 !UnityApp/Assets/
 !UnityApp/Assets/**
